@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ashry-new-ec2' }
+    agent { label 'bonus-node' }
 
     environment {
         GITHUB_TOKEN = credentials('github-token')
